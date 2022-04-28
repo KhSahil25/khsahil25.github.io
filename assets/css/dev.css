@@ -1,0 +1,57 @@
+.rn-nav-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.feather-twitter-fill {
+  fill: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-nav-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.rn-btn.newBtn {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: auto 20px;
+  grid-gap: 0.3rem;
+  align-items: center;
+  color: #fff;
+}
+.rn-btn.newBtn:hover {
+  color: var(--color-primary);
+}
+.rn-btn.newBtn .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rn-btn.newBtn svg {
+  fill: #fff;
+  width: 100%;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.rn-btn.newBtn:hover svg {
+  fill: var(--color-primary);
+}
+
+.rn-section-gap.rn-footer-area {
+  padding: 1rem 0;
+}
+
+.left-header-style #sideNavs .primary-menu {
+  padding-top: 0;
+}
+
+.rn-blog .thumbnail img {
+  aspect-ratio: 10/6;
+  object-fit: cover;
+}
+.modal .modal-news {
+  max-width: 700px !important;
+}
