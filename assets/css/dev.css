@@ -83,11 +83,16 @@
 
 .slider-style-5 h1{
   color: var(--color-lightn);
+  text-align: start;
 }
 .slider-style-5 h1 span {
   display: block;
-  font-size: 6vw;
+  font-size: 9vw;
   color: #fff;
+}
+
+.slider-style-5{
+  text-align: start;
 }
 
 @media only screen and (max-width: 767px){
