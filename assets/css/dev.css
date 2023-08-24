@@ -80,3 +80,22 @@
     height: 250px;
   }
 }
+
+.slider-style-5 h1{
+  color: var(--color-lightn);
+}
+.slider-style-5 h1 span {
+  display: block;
+  font-size: 6vw;
+  color: #fff;
+}
+
+@media only screen and (max-width: 767px){
+  .slider-style-5 h1 {
+    font-size: 35px;
+  }
+  .slider-style-5 h1 span{
+    font-size: 11vw;
+    margin: 0.2em 0;
+  }
+}
