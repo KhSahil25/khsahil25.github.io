@@ -2,6 +2,10 @@ ul {
 list-style: disc !important;
 }
 
+.nav {
+  list-style: none !important;
+}
+
 .rn-nav-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
