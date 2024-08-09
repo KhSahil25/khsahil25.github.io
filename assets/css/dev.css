@@ -10,6 +10,10 @@ list-style: disc !important;
   list-style: none !important;
 }
 
+.mainmenu-nav .primary-menu {
+  list-style: none  !important;
+}
+
 .rn-nav-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
